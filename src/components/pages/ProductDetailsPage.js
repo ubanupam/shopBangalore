@@ -111,8 +111,8 @@ const ProductDetailsPage = ({ handleStepEnter, currentStepIndex }) => {
                         <p className="price pb-6 font-bold">$225</p>
                         <p className="color pb-2">Color Conchiglia</p>
                         <div className="variants flex justify-items-start mb-6">
-                                        <img src={variantImage1} alt="first 1" loading="lazy" />
-                                        <img src={variantImage2} alt="scrollable 2" loading="lazy" />
+                                        <img src={variantImage1} className="object-none h-48 w-96" alt="first 1" loading="lazy" />
+                                        <img src={variantImage2} className="object-none h-48 w-96" alt="scrollable 2" loading="lazy" />
                         </div>
                         <div className="flex size justify-between items-center my-3">
                             <span className="selectedSize">Size <cite>L</cite></span>
