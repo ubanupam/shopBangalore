@@ -163,7 +163,8 @@ const ProductDetailsPage = ({ handleStepEnter, currentStepIndex }) => {
                 <p className='editorPara'>
                     The Forte Lurex Linen Viscose Jacket in Mother of Pearl features lunar lavishness by night and by day: a blazer in a linen blend shot with lurex for a shimmering surface that shines like a star in the sky.
                 </p>
-                <div className='editorBy text-center'>By MINNA SHIM, Fashion Editor</div>
+                <div className='editorBy flex justify-center items-center'> <div class="h-[1px] w-[28px] mr-[8px] bg-gray-500"></div>
+By MINNA SHIM, Fashion Editor</div>
             </div>
         </div>
     );
