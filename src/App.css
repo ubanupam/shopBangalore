@@ -164,6 +164,20 @@ color: var(--white, #FFF);
 text-transform: uppercase;
 height: 48px;
 }
+
+.addToBag::after{
+  content: "";
+  display: inline-block;
+  width: 17px;
+  height: 12px;
+  background-image: url('./components/common/icons/rightaddtobag.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 13%;
+  transform: translateY(-50%);
+  right: -8px;
+}
 .styickImgGroup img{
   display: inline-block;
   object-fit: cover;
