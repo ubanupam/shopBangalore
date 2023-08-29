@@ -1,11 +1,7 @@
 import React, { useState } from 'react';
-import image2 from '../pages/images/img/bigfront.jpg';
-import image3 from '../pages/images/img/backsideImg.jpg';
-import image4 from '../pages/images/img/sideImg.jpg';
-import image5 from '../pages/images/img/standupwithbook.jpg';
 const CarouselWithDots = () => {
   const pdpImgs = [
-    image2, image3, image4, image5
+    "bigfront", "backsideImg", "sideImg", "standupwithbook"
 ]
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -19,7 +15,7 @@ const CarouselWithDots = () => {
         {pdpImgs.map((pdpImgItem, index) => (
           <img
             key={index}
-            src={pdpImgItem}
+            src={`${process.env.PUBLIC_URL}/images/${pdpImgItem}.jpg`}
             alt={`pdpImg ${index}`}
             className={`w-full transform transition-transform duration-300 ${index === currentIndex ? 'opacity-100 scale-100' : 'opacity-0 scale-90'}`}
           />

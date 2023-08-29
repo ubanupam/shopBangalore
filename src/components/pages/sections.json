@@ -1,0 +1,49 @@
+ [
+    {
+        
+        "id":"section 1",
+        "src": "firstStandUpImg.jpg",
+        "props": {
+          "alt": "Product Image1",
+          "className": "w-full scroll-snap-align-start",
+          "loading" : "lazy",
+          "width" :"563px",
+          "height": "675px"
+        }
+      },
+      {
+        "id":"section 2",  
+        "src": "backNsideImg.jpg",
+          "props": {
+            "alt": "Product Image2",
+            "className": "w-full scroll-snap-align-start",
+            "loading" : "lazy",
+            "width" :"557px",
+            "height": "418px"
+          }
+        },
+        {
+          "id":"section 3",
+            "src": "bigfront.jpg",
+          "props": {
+            "alt": "Product Image3",
+            "className": "w-full scroll-snap-align-start",
+            "loading" : "lazy",
+            "width" :"540px",
+            "height": "675px"
+          }
+        },
+        {
+          "id":"section 4",
+            "src": "standupwithbook.jpg",
+          "props": {
+            "alt": "Product Image4",
+            "className": "w-full scroll-snap-align-start",
+            "loading" : "lazy",
+            "width" :"540px",
+            "height": "675px"
+          }
+        }
+  ]
+
+
