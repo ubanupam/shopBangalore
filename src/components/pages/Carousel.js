@@ -1,6 +1,12 @@
 import React, { useState } from 'react';
-
-const CarouselWithDots = ({ pdpImgs }) => {
+import image2 from '../pages/images/img/bigfront.jpg';
+import image3 from '../pages/images/img/backsideImg.jpg';
+import image4 from '../pages/images/img/sideImg.jpg';
+import image5 from '../pages/images/img/standupwithbook.jpg';
+const CarouselWithDots = () => {
+  const pdpImgs = [
+    image2, image3, image4, image5
+]
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handleDotClick = (index) => {
