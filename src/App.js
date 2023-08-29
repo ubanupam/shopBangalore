@@ -7,7 +7,7 @@ function App() {
  
 
   return (
-    <div className="lg:container lg:mx-auto min-h-screen xs:p-6 sm:p-8">
+    <div className="lg:container min-h-screen xs:p-6">
       <Header />
       <ProductDetailsPage />
     </div>

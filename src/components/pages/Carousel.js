@@ -17,7 +17,7 @@ const CarouselWithDots = () => {
             key={index}
             src={`${process.env.PUBLIC_URL}/images/${pdpImgItem}.jpg`}
             alt={`pdpImg ${index}`}
-            className={`w-full transform transition-transform duration-300 ${index === currentIndex ? 'opacity-100 scale-100' : 'opacity-0 scale-90'}`}
+            className={`transform transition-transform duration-300 ${index === currentIndex ? 'opacity-100 scale-100 w-full' : 'opacity-0 hidden scale-9'}`}
           />
         ))}
       </div>

@@ -12,7 +12,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-white py-4">
+    <header className="bg-white py-3 -mt-4">
       <div className="md:w-[1298px] sm:w-[339px] mx-auto flex items-center justify-between">
         <Logo />
         <div className='flex gap-7'>
